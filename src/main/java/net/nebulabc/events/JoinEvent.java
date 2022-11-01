@@ -18,6 +18,7 @@ public class JoinEvent implements PlayerLoggedInEvent
         File f = new File("world/players/" + entityPlayerMP.username + ".dat");
         if(!f.exists()) {
             MinecraftServer.getInstance().configManager.sendPacketToAllPlayers(new Packet3Chat(ChatColor.yellow + "Welcome " + entityPlayerMP.username + " to the server!"));
+            MinecraftServer.logger.info(ChatColor.yellow + "Welcome " + entityPlayerMP.username + " to the server!");
         }
     }
 }

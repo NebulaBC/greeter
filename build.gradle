@@ -27,6 +27,6 @@ jar {
         attributes "Plugin-Class": "net.nebulabc.Greeter"
         attributes "Plugin-Dependencies": ""
         attributes "Plugin-Id": "greeter"
-        attributes "Plugin-Version": "1.0.0"
+        attributes "Plugin-Version": "1.0.1"
     }
 }
